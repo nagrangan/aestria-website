@@ -1,4 +1,5 @@
 import { Package, Sparkles, Heart, Gift } from 'lucide-react';
+import Image from 'next/image';
 
 const steps = [
   {
@@ -128,14 +129,15 @@ export default function HowItWorksSection() {
               </div>
             </div>
             
-            {/* Placeholder for packaging image */}
+            {/* Luxury packaging image */}
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-amber-100 to-orange-200 rounded-2xl flex items-center justify-center">
-                <div className="text-center text-stone-600">
-                  <Package className="w-16 h-16 mx-auto mb-4" strokeWidth={1.5} />
-                  <p className="font-space-mono text-sm">Luxury Packaging Image</p>
-                  <p className="text-xs mt-1 opacity-70">Replace with actual kraft packaging photo</p>
-                </div>
+              <div className="aspect-square rounded-2xl overflow-hidden">
+                <Image
+                  src="/luxury-packaging.png"
+                  alt="Aestria luxury kraft packaging - beautiful unboxing experience"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import { ArrowRight, Gift, Sparkles, Heart } from 'lucide-react';
+import Image from 'next/image';
 
 export default function SecondaryCTASection() {
   return (
@@ -69,15 +70,14 @@ export default function SecondaryCTASection() {
           
           {/* Right column - Visual */}
           <div className="relative">
-            {/* Main image placeholder */}
+            {/* Main collection showcase image */}
             <div className="relative w-full aspect-[4/5] rounded-3xl overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-200 to-orange-300 flex items-center justify-center">
-                <div className="text-center text-stone-700">
-                  <Sparkles className="w-20 h-20 mx-auto mb-4" strokeWidth={1.5} />
-                  <p className="text-sm font-space-mono">Limited Edition Collection</p>
-                  <p className="text-xs mt-1 opacity-70">Replace with collection showcase</p>
-                </div>
-              </div>
+              <Image
+                src="/collection-showcase.png"
+                alt="Aestria limited edition collection - exclusive luxury charms"
+                fill
+                className="object-cover"
+              />
             </div>
             
             {/* Floating badge */}

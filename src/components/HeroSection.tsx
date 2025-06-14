@@ -64,17 +64,15 @@ export default function HeroSection() {
           
           {/* Right column - Hero image */}
           <div className="relative">
-            <div className="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
-              {/* Placeholder for main product image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-100 to-orange-200 flex items-center justify-center">
-                <div className="text-center text-stone-600">
-                  <div className="w-24 h-24 mx-auto mb-4 bg-white/60 rounded-full flex items-center justify-center">
-                    <Sparkles className="w-12 h-12" strokeWidth={1.5} />
-                  </div>
-                  <p className="text-sm font-space-mono">Hero Product Image</p>
-                  <p className="text-xs mt-1 opacity-70">Replace with actual charm photography</p>
-                </div>
-              </div>
+            <div className="relative w-full aspect-[4/5] rounded-3xl overflow-hidden">
+              {/* Main product image */}
+              <Image
+                src="/hero-product.png"
+                alt="Aestria luxury charm - handcrafted jewelry piece"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
             
             {/* Floating elements */}
