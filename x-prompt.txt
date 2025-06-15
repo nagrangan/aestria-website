@@ -1,0 +1,17 @@
+Create a responsive landing page website for d2c ecommerce brand Aestria. 
+The brand is a direct to consumer luxury brand, based in the India.
+It sells high-quality beautiful charms as in the photos stored in /public/images.
+We deliver our items in very high quality kraft packaging. 
+some of the product images are in /public/images folder. It can be use for image creations.
+The website you create should be minimal, clean, beautiful and elegant. 
+It should exude class and luxury. 
+There should be generous white space and a layout inspired by high end luxury fashion brands and fragrance houses.
+I want you to focus on building the homepage - it should have a clear hero section with a call to action, a section below showing how it works and what you get, a section below with user reviews, a second CTA section, and a footer.
+I want the design to have a great aesthetic - don't just give me a single hero feature section followed by a boring two column layout. Really try hard to make it as exciting and unique as possible, while making sure you hit the luxury angleangle
+- For copy, come up with a strong message for the call to action buttons. In general, make sure you are using really strong message to help a user convert and check out.
+- All graphics is preferably in SVG. Images of products can be in jpg, jpeg, or png.
+- Use a thin clean icon set - maybe Lucide icons with a 1.5px stroke width.
+- Use react js
+- Use a Tailwind style colour palette that uses lots of pastel colors
+- For fonts, use Instrument Serif for headings and Space Mono for body copy.
+- include a login page when clicking the profile icon at the top.
