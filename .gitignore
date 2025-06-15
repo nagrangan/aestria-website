@@ -154,3 +154,4 @@ Thumbs.db
 *.bak
 *.backup
 public/.DS_Store
+package-lock.json
