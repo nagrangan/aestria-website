@@ -153,3 +153,4 @@ Thumbs.db
 # Backup files
 *.bak
 *.backup
+public/.DS_Store
