@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-pastel-cream">
+    <header className="absolute top-0 left-0 right-0 z-50 bg-pastel-mint/30 backdrop-blur-md border-b border-pastel-sky/30">
       <div className="container-custom">
         <div className="flex items-center justify-between py-6">
           {/* Logo */}
@@ -51,7 +51,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-pastel-cream">
+          <div className="md:hidden bg-pastel-sky/30 backdrop-blur-sm border-t border-pastel-mint/30">
             <nav className="py-6 space-y-4">
               <Link
                 to="/"

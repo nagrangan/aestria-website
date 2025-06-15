@@ -65,7 +65,7 @@ const SecondCTA = () => {
           <div className="relative animate-slide-up">
             <div className="grid grid-cols-2 gap-6">
               {/* Featured Product 1 */}
-              <div className="bg-white p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300">
+              <div className="bg-pastel-mint/40 backdrop-blur-sm p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300">
                 <img
                   src="/images/kappybara1.jpg"
                   alt="Featured Charm"
@@ -80,7 +80,7 @@ const SecondCTA = () => {
               </div>
 
               {/* Featured Product 2 */}
-              <div className="bg-white p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300 mt-8">
+              <div className="bg-pastel-sky/40 backdrop-blur-sm p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300 mt-8">
                 <img
                   src="/images/chicki1.jpg"
                   alt="Featured Charm"
@@ -95,7 +95,7 @@ const SecondCTA = () => {
               </div>
 
               {/* Featured Product 3 */}
-              <div className="bg-white p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300 -mt-4">
+              <div className="bg-pastel-sage/40 backdrop-blur-sm p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300 -mt-4">
                 <img
                   src="/images/dyno1.jpg"
                   alt="Featured Charm"
@@ -110,7 +110,7 @@ const SecondCTA = () => {
               </div>
 
               {/* Featured Product 4 */}
-              <div className="bg-white p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300 mt-4">
+              <div className="bg-pastel-mint/40 backdrop-blur-sm p-6 shadow-2xl rounded-none transform hover:-translate-y-2 transition-transform duration-300 mt-4">
                 <img
                   src="/images/spike1.jpg"
                   alt="Featured Charm"
@@ -133,8 +133,7 @@ const SecondCTA = () => {
         </div>
 
         {/* Newsletter Signup */}
-        <div className="mt-24 text-center">
-          <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-none p-8 lg:p-12 max-w-2xl mx-auto">
+        <div className="mt-24 text-center">            <div className="bg-pastel-sky/20 backdrop-blur-sm border border-pastel-mint/30 rounded-none p-8 lg:p-12 max-w-2xl mx-auto">
             <h3 className="font-serif text-2xl lg:text-3xl text-white mb-4">
               Stay Updated with Luxury
             </h3>

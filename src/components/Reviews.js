@@ -54,7 +54,7 @@ const Reviews = () => {
   ];
 
   return (
-    <section className="section-padding bg-gradient-to-br from-pastel-cream to-white">
+    <section className="section-padding bg-gradient-to-br from-pastel-mint/20 via-pastel-sky/15 to-pastel-sage/20">
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center mb-20 animate-fade-in">
@@ -76,7 +76,7 @@ const Reviews = () => {
           {reviews.map((review, index) => (
             <div 
               key={index}
-              className="bg-white/80 backdrop-blur-sm p-8 shadow-xl border border-pastel-mint/30 rounded-none hover:shadow-2xl transition-shadow duration-300 animate-slide-up group"
+              className="bg-pastel-sky/20 backdrop-blur-sm p-8 shadow-xl border border-pastel-mint/30 rounded-none hover:shadow-2xl transition-shadow duration-300 animate-slide-up group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Quote Icon */}
@@ -131,7 +131,7 @@ const Reviews = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="bg-white/90 backdrop-blur-sm p-12 lg:p-16 shadow-2xl border border-pastel-mint/30 rounded-none">
+        <div className="bg-pastel-mint/30 backdrop-blur-sm p-12 lg:p-16 shadow-2xl border border-pastel-sky/30 rounded-none">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
               <div className="font-serif text-4xl lg:text-5xl text-luxury-gold">4.9</div>

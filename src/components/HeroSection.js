@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-pastel-cream via-white to-pastel-lavender">
+    <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-pastel-mint via-pastel-sky to-pastel-lavender">
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 opacity-30">
         <div className="w-32 h-32 rounded-full bg-pastel-mint animate-float"></div>
@@ -66,7 +66,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-up">
             <div className="relative z-10">
               {/* Main Product Image */}
-              <div className="relative bg-white rounded-none shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
+              <div className="relative bg-pastel-sky/30 backdrop-blur-sm rounded-none shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img
                   src="/images/kappybara1.jpg"
                   alt="Luxury Charm"
@@ -78,7 +78,7 @@ const HeroSection = () => {
               </div>
 
               {/* Secondary Product Images */}
-              <div className="absolute -top-8 -left-8 bg-white rounded-none shadow-xl p-4 transform -rotate-6 opacity-80">
+              <div className="absolute -top-8 -left-8 bg-pastel-mint/40 backdrop-blur-sm rounded-none shadow-xl p-4 transform -rotate-6 opacity-80">
                 <img
                   src="/images/chicki1.jpg"
                   alt="Charm Collection"
@@ -86,7 +86,7 @@ const HeroSection = () => {
                 />
               </div>
               
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-none shadow-xl p-4 transform rotate-12 opacity-80">
+              <div className="absolute -bottom-6 -right-6 bg-pastel-sage/40 backdrop-blur-sm rounded-none shadow-xl p-4 transform rotate-12 opacity-80">
                 <img
                   src="/images/bluewhale1.jpg"
                   alt="Premium Charm"

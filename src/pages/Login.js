@@ -23,7 +23,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pastel-cream to-pastel-lavender flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-pastel-mint to-pastel-sky flex items-center justify-center px-4">
       <div className="max-w-md w-full">
         {/* Back Button */}
         <Link 
@@ -35,7 +35,7 @@ const Login = () => {
         </Link>
 
         {/* Login Form */}
-        <div className="bg-white/90 backdrop-blur-md rounded-none shadow-2xl p-8 border border-pastel-mint">
+        <div className="bg-pastel-sage/20 backdrop-blur-md rounded-none shadow-2xl p-8 border border-pastel-sky/30">
           <div className="text-center mb-8">
             <h1 className="font-serif text-4xl text-luxury-charcoal mb-2">Welcome Back</h1>
             <p className="font-mono text-sm text-luxury-graphite">Sign in to your Aestria account</p>

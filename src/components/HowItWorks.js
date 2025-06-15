@@ -30,7 +30,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-gradient-to-br from-pastel-sage/20 via-pastel-mint/10 to-pastel-sky/20">
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center mb-20 animate-fade-in">
@@ -83,8 +83,8 @@ const HowItWorks = () => {
               {/* Image */}
               <div className={`relative ${index % 2 === 1 ? 'lg:col-start-1' : ''}`}>
                 <div className="relative group">
-                  <div className="absolute inset-0 bg-gradient-to-br from-pastel-pink/20 to-pastel-lavender/20 rounded-none transform rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
-                  <div className="relative bg-white p-8 shadow-2xl rounded-none transform -rotate-2 group-hover:rotate-0 transition-transform duration-500">
+                  <div className="absolute inset-0 bg-gradient-to-br from-pastel-mint/30 to-pastel-sky/30 rounded-none transform rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
+                  <div className="relative bg-pastel-cream/80 backdrop-blur-sm p-8 shadow-2xl rounded-none transform -rotate-2 group-hover:rotate-0 transition-transform duration-500">
                     <img
                       src={step.image}
                       alt={step.title}
@@ -98,10 +98,10 @@ const HowItWorks = () => {
 
                 {/* Decorative Elements */}
                 {index % 2 === 0 && (
-                  <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-pastel-mint/30 rounded-full blur-xl"></div>
+                  <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-pastel-sage/40 rounded-full blur-xl"></div>
                 )}
                 {index % 2 === 1 && (
-                  <div className="absolute -top-8 -right-8 w-32 h-32 bg-pastel-peach/30 rounded-full blur-xl"></div>
+                  <div className="absolute -top-8 -right-8 w-32 h-32 bg-pastel-sky/40 rounded-full blur-xl"></div>
                 )}
               </div>
             </div>
@@ -110,7 +110,7 @@ const HowItWorks = () => {
 
         {/* CTA Section */}
         <div className="text-center mt-24 animate-fade-in">
-          <div className="bg-gradient-to-r from-pastel-cream to-pastel-lavender p-12 lg:p-16 rounded-none">
+          <div className="bg-gradient-to-r from-pastel-sage/30 to-pastel-sky/30 backdrop-blur-sm p-12 lg:p-16 rounded-none">
             <h3 className="font-serif text-3xl lg:text-4xl text-luxury-charcoal mb-6">
               Ready to Experience Luxury?
             </h3>
