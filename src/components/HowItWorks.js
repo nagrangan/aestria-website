@@ -7,25 +7,25 @@ const HowItWorks = () => {
       icon: Heart,
       title: "Choose Your Charm",
       description: "Browse our curated collection of handcrafted luxury charms, each designed with meticulous attention to detail and artisanal craftsmanship.",
-      image: "/images/dyno1.jpg"
+      image: "/dyno1.jpg"
     },
     {
       icon: Package,
       title: "Premium Packaging",
       description: "Your charm arrives in our signature kraft packaging, designed to create an unforgettable unboxing experience that reflects our luxury standards.",
-      image: "/images/spike1.jpg"
+      image: "/spike1.jpg"
     },
     {
       icon: Truck,
       title: "Swift Delivery",
       description: "Enjoy complimentary express delivery across India with secure packaging and real-time tracking for complete peace of mind.",
-      image: "/images/IMG_3026.jpg"
+      image: "/IMG_3026.jpg"
     },
     {
       icon: Shield,
       title: "Lifetime Guarantee",
       description: "Every Aestria charm comes with our lifetime craftsmanship guarantee, ensuring your investment in luxury is protected forever.",
-      image: "/images/bluewhale1.jpg"
+      image: "/bluewhale1.jpg"
     }
   ];
 

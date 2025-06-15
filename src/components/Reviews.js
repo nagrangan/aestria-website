@@ -8,7 +8,7 @@ const Reviews = () => {
       location: "Mumbai",
       rating: 5,
       text: "The quality is absolutely exceptional. The charm arrived in the most beautiful packaging I've ever seen. It's clear that Aestria pays attention to every single detail.",
-      image: "/images/kappybara1.jpg",
+      image: "/kappybara1.jpg",
       verified: true
     },
     {
@@ -16,7 +16,7 @@ const Reviews = () => {
       location: "Bangalore",
       rating: 5,
       text: "Bought this as a gift for my wife and she was completely blown away. The craftsmanship is outstanding and the presentation is luxury at its finest.",
-      image: "/images/chicki1.jpg",
+      image: "/chicki1.jpg",
       verified: true
     },
     {
@@ -24,7 +24,7 @@ const Reviews = () => {
       location: "Delhi",
       rating: 5,
       text: "I've collected luxury items for years, but nothing compares to the elegance and sophistication of Aestria charms. Absolutely worth every rupee.",
-      image: "/images/dyno1.jpg",
+      image: "/dyno1.jpg",
       verified: true
     },
     {
@@ -32,7 +32,7 @@ const Reviews = () => {
       location: "Chennai",
       rating: 5,
       text: "The unboxing experience alone is worth it. The kraft packaging feels so premium and sustainable. The charm itself exceeded all my expectations.",
-      image: "/images/spike1.jpg",
+      image: "/spike1.jpg",
       verified: true
     },
     {
@@ -40,7 +40,7 @@ const Reviews = () => {
       location: "Kolkata",
       rating: 5,
       text: "Fast delivery, impeccable quality, and customer service that truly cares. Aestria has set a new standard for luxury e-commerce in India.",
-      image: "/images/bluewhale1.jpg",
+      image: "/bluewhale1.jpg",
       verified: true
     },
     {
@@ -48,7 +48,7 @@ const Reviews = () => {
       location: "Pune",
       rating: 5,
       text: "These charms are conversation starters. Everyone asks where I got mine from. The attention to detail in both product and packaging is remarkable.",
-      image: "/images/IMG_3026.jpg",
+      image: "/IMG_3026.jpg",
       verified: true
     }
   ];

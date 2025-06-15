@@ -68,7 +68,7 @@ const HeroSection = () => {
               {/* Main Product Image */}
               <div className="relative bg-pastel-sky/30 backdrop-blur-sm rounded-none shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img
-                  src="/images/kappybara1.jpg"
+                  src="/kappybara1.jpg"
                   alt="Luxury Charm"
                   className="w-full h-80 object-cover rounded-none"
                 />
@@ -80,7 +80,7 @@ const HeroSection = () => {
               {/* Secondary Product Images */}
               <div className="absolute -top-8 -left-8 bg-pastel-mint/40 backdrop-blur-sm rounded-none shadow-xl p-4 transform -rotate-6 opacity-80">
                 <img
-                  src="/images/chicki1.jpg"
+                  src="/chicki1.jpg"
                   alt="Charm Collection"
                   className="w-24 h-24 object-cover rounded-none"
                 />
@@ -88,7 +88,7 @@ const HeroSection = () => {
               
               <div className="absolute -bottom-6 -right-6 bg-pastel-sage/40 backdrop-blur-sm rounded-none shadow-xl p-4 transform rotate-12 opacity-80">
                 <img
-                  src="/images/bluewhale1.jpg"
+                  src="/bluewhale1.jpg"
                   alt="Premium Charm"
                   className="w-20 h-20 object-cover rounded-none"
                 />
